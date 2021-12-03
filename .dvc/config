@@ -1,4 +1,6 @@
 [core]
-    remote = storage
+    remote = storage2
 ['remote "storage"']
     url = s3://nd0821bucket
+['remote "storage2"']
+    url = s3://nd0821bucket/test
