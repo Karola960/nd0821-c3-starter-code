@@ -1,8 +1,12 @@
 [core]
-    remote = storage3
+    remote = storage5
 ['remote "storage"']
     url = s3://nd0821bucket
 ['remote "storage2"']
     url = s3://nd0821bucket/test
 ['remote "storage3"']
     url = s3://nd0821bucket/lb
+['remote "storage4"']
+    url = s3://nd0821bucket/gbclassifier
+['remote "storage5"']
+    url = s3://nd0821bucket/slice_output
